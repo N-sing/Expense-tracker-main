@@ -16,6 +16,7 @@ const App = ()=> {
   const addExpenseHandler=(expense)=>{
       const updated_expenses = [expense, ...expenses];
       setExpenses(updated_expenses);
+    
   };
 
   return (
